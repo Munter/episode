@@ -1,6 +1,7 @@
 module.exports = function (str) {
     var season,
-        episode;
+        episode,
+        matches = [];
 
     var compactNotations = [
         /\bs(\d+) ?e(\d+)\b/i,
@@ -21,6 +22,7 @@ module.exports = function (str) {
         var match = regex.exec(str);
 
         if (match) {
+            matches.push(match[0]);
             season = parseInt(match[1], 10);
             episode = parseInt(match[2], 10);
 
@@ -33,6 +35,7 @@ module.exports = function (str) {
             var match = regex.exec(str);
 
             if (match) {
+                matches.push(match[0]);
                 season = parseInt(match[1], 10);
 
                 return true;
@@ -45,6 +48,7 @@ module.exports = function (str) {
             var match = regex.exec(str);
 
             if (match) {
+                matches.push(match[0]);
                 episode = parseInt(match[1], 10);
 
                 return true;
@@ -54,6 +58,7 @@ module.exports = function (str) {
 
     return {
         season: season,
-        episode: episode
+        episode: episode,
+        matches: matches
     };
 };

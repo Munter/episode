@@ -14,8 +14,11 @@ Usage
 ```javascript
 var episode = require('episode');
 
-episode('s01e04'); // { season: 1, episode: 4 }
+episode('s01e04'); // { season: 1, episode: 4, matches: ['s01e04'] }
 ```
+The season and episode of the return value can be `undefined` if no matches are made.
+
+The matches array contains the list of matched strings that led to the result. These could be useful for replacing those strings in your input string.
 
 Supported syntaxes
 ------------------
