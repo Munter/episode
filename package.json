@@ -1,0 +1,28 @@
+{
+  "name": "episode",
+  "version": "0.0.0",
+  "description": "Utility function to find tv series season and episode numbers from a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "travis": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "TODO"
+  },
+  "keywords": [
+    "tv",
+    "series",
+    "season",
+    "episode",
+    "string",
+    "parser"
+  ],
+  "author": "Peter Müller <munter@fumle.dk>",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^1.19.0",
+    "unexpected": "^3.2.0"
+  }
+}
