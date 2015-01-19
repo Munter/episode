@@ -3,7 +3,7 @@ Episode
 
 [![NPM version](https://badge.fury.io/js/episode.svg)](http://badge.fury.io/js/episode)
 [![Build Status](https://travis-ci.org/Munter/episode.svg?branch=master)](https://travis-ci.org/Munter/episode)
-[![Coverage Status](https://img.shields.io/coveralls/Munter/episode.svg)](https://coveralls.io/r/Munter/episode?branch=master)
+[![Coverage Status](https://img.shields.io/coveralls/Munter/episode.svg?style=flat)](https://coveralls.io/r/Munter/episode?branch=master)
 [![Dependency Status](https://david-dm.org/Munter/episode.svg)](https://david-dm.org/Munter/episode)
 
 A javascript utility that can parse commonly used TV-series season and episode syntaxes into structured data.
