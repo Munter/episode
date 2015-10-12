@@ -24,7 +24,7 @@
   "author": "Peter Müller <munter@fumle.dk>",
   "license": "MIT",
   "devDependencies": {
-    "coveralls": "^2.10.0",
+    "coveralls": "^2.11.4",
     "istanbul": "0.3.21",
     "jshint": "^2.5.1",
     "mocha": "^1.19.0",
