@@ -25,7 +25,7 @@
   "license": "MIT",
   "devDependencies": {
     "coveralls": "^2.10.0",
-    "istanbul": "0.3.21",
+    "istanbul": "0.4.1",
     "jshint": "^2.5.1",
     "mocha": "^1.19.0",
     "mocha-lcov-reporter": "1.0.0",
